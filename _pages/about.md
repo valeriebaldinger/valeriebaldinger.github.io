@@ -9,7 +9,7 @@ redirect_from:
 
 About
 ======
-I am a PhD student in Finance at NYU Stern School of Business. My research interests include asset pricing and behavioral economics.
+I am a PhD student in Finance at NYU Stern School of Business. My research interests include asset pricing and behavioral finance.
 
 Before joining Stern, I worked as a Research Analyst at the Federal Reserve Bank of New York and received an MSc in Economics from the London School of Economics.
 
