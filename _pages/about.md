@@ -16,5 +16,5 @@ Before joining Stern, I worked as a Research Analyst at the Federal Reserve Bank
 Education
 ======
 * **Ph.D. in Finance**, NYU Stern, 2022 - Present
-* **M.Sc. in Economics**, London School of Economics, 2018 - 2020 (Graduated with distinction)
+* **M.Sc. in Economics**, London School of Economics, 2018 - 2020 
 * **B.A. in Economics, Philosophy & Political Science**, University of Zurich, 2015 - 2018
