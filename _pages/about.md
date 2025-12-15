@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Finance at NYU Stern School of Business.
-
 About
 ======
 I am a PhD student in Finance at NYU Stern School of Business. My research interests include asset pricing and behavioral economics.
