@@ -1,7 +1,9 @@
 ---
 permalink: /
 layout: academic-home
-excerpt: "Valerie Baldinger, Finance PhD student at NYU Stern. Research in AI, household finance, and behavioral finance."
+seo_title: "Valerie Baldinger — Finance PhD Student, NYU Stern"
+excerpt: "Valerie Baldinger is a Finance PhD student at NYU Stern. Explore her research on generative AI and retail investment, teaching, and CV."
+last_modified_at: 2026-09-13
 author_profile: false
 redirect_from: 
   - /about/

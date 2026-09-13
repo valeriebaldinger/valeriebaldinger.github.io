@@ -2,6 +2,8 @@
 layout: archive
 title: "CV"
 permalink: /cv-json/
+redirect_to: /files/CV_Valerie_Baldinger.pdf
+sitemap: false
 author_profile: false
 redirect_from:
   - /resume-json
