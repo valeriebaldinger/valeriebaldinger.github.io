@@ -1,0 +1,6 @@
+<picture>
+  <source type="image/webp"
+    srcset="{{ '/images/valerie_baldinger_headshot-400.webp' | relative_url }} 400w, {{ '/images/valerie_baldinger_headshot-560.webp' | relative_url }} 560w, {{ '/images/valerie_baldinger_headshot-840.webp' | relative_url }} 840w"
+    sizes="{{ include.sizes | default: '200px' }}">
+  <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ site.author.name | escape }}" width="1122" height="1402" fetchpriority="high" decoding="async"{% if include.image_class %} class="{{ include.image_class }}"{% endif %}>
+</picture>

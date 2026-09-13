@@ -4,6 +4,7 @@ layout: academic-home
 seo_title: "Valerie Baldinger — Finance PhD Student, NYU Stern"
 excerpt: "Valerie Baldinger is a Finance PhD student at NYU Stern. Explore her research on generative AI and retail investment, teaching, and CV."
 last_modified_at: 2026-09-13
+robots: "index, follow, max-image-preview:large"
 author_profile: false
 redirect_from: 
   - /about/
@@ -12,7 +13,7 @@ redirect_from:
 
 <section class="hero shell" id="home" aria-labelledby="profile-name">
   <figure class="portrait">
-    <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Valerie Baldinger" width="1122" height="1402" fetchpriority="high">
+    {% include responsive-headshot.html sizes="(max-width: 680px) 200px, (max-width: 900px) 240px, 280px" %}
   </figure>
   <div class="introduction">
     <h1 id="profile-name">Valerie Baldinger</h1>

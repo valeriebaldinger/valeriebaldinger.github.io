@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Teaching"
+excerpt: "Valerie Baldinger's teaching at NYU Stern: Foundations of Finance, teaching evaluations, and graduate and undergraduate teaching assistant experience."
 permalink: /teaching/
 author_profile: true
 ---

@@ -1,0 +1,37 @@
+{% assign home_url = '/' | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ home_url | append: '#website' | jsonify }},
+      "name": {{ site.name | jsonify }},
+      "url": {{ home_url | jsonify }}
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": {{ home_url | append: '#profile' | jsonify }},
+      "url": {{ home_url | jsonify }},
+      "name": {{ page.seo_title | default: site.name | jsonify }},
+      "description": {{ page.excerpt | jsonify }},
+      "inLanguage": {{ site.locale | jsonify }},
+      "isPartOf": { "@id": {{ home_url | append: '#website' | jsonify }} },
+      "mainEntity": {
+        "@type": "Person",
+        "@id": {{ home_url | append: '#person' | jsonify }},
+        "name": {{ site.author.name | jsonify }},
+        "url": {{ home_url | jsonify }},
+        "description": {{ site.author.bio | jsonify }},
+        "image": {{ site.author.avatar | prepend: '/images/' | absolute_url | jsonify }},
+        "sameAs": {{ site.social.links | jsonify }},
+        "affiliation": { "@type": "CollegeOrUniversity", "name": "NYU Stern School of Business" },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "London School of Economics" },
+          { "@type": "CollegeOrUniversity", "name": "University of Zurich" }
+        ]
+      }
+    }
+  ]
+}
+</script>
