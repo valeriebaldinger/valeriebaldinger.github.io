@@ -1,121 +1,132 @@
 \documentclass[11pt,a4paper]{article}
-    \usepackage{fullpage}
-    \usepackage{amsmath}
-    \usepackage{amssymb}
-    \usepackage{textcomp}
-    \usepackage[utf8]{inputenc}
-    \usepackage[T1]{fontenc}
-    \textheight=10in
-    \pagestyle{empty}
-    \raggedright
-    \usepackage[left=1in,right=1in,bottom=1in,top=1in]{geometry}
-    \usepackage{fontawesome}
-    \usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=1in,right=1in,bottom=1in,top=1in]{geometry}
+\usepackage{hyperref}
 
-    %\renewcommand{\encodingdefault}{cg}
-%\renewcommand{\rmdefault}{lgrcmr}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=black,
+  linkcolor=black,
+  citecolor=black,
+  pdfauthor={Valerie L. Baldinger},
+  pdftitle={Curriculum Vitae - Valerie L. Baldinger}
+}
+\urlstyle{same}
 
-% Roomy spacing
+% Roomy spacing from the published CV design.
 \linespread{1.15}
 
-\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
-
-% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\header} [1] {
-    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
-    \vspace*{-6pt} \lineunder
-    \vspace{4mm} % Increased header spacing
+\newcommand{\header}[1]{
+  {\hspace*{-18pt}\vspace*{6pt}\textsc{#1}}
+  \vspace*{-6pt}\lineunder
+  \vspace{4mm}
 }
 
-\newcommand{\lineunder} {
-    \vspace*{-8pt} \\
-    \hspace*{-18pt} \hrulefill \\
+\newcommand{\lineunder}{
+  \vspace*{-8pt}\\
+  \hspace*{-18pt}\hrulefill\\
 }
 
-\newcommand{\employer} [3] {
-    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
-}
-
-% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
-
-    \begin{document}
+\begin{document}
 \vspace*{-40pt}
 
-    
-
-%==== Profile ====%
+%==== Profile ==== %
 \vspace*{-10pt}
 \begin{center}
-    {\Huge \scshape {Valerie L. Baldinger}}\\ \vspace{8pt}
-    
-    \href{mailto:valerie.baldinger@nyu.edu}{valerie.baldinger@nyu.edu} $\cdot$ 
-    \href{https://linkedin.com/in/valeriebaldinger}{linkedin.com/in/valeriebaldinger} $\cdot$ 646-726-8149 \\ \vspace{8pt}
-    
-    NYU Stern\\
-    44 West 4th Street, 9-193F\\
-    New York, NY 10012
+  {\Huge\scshape Valerie L. Baldinger}\\ \vspace{8pt}
+  \href{mailto:valerie.baldinger@nyu.edu}{valerie.baldinger@nyu.edu} $\cdot$
+  \href{https://linkedin.com/in/valeriebaldinger}{linkedin.com/in/valeriebaldinger} $\cdot$ 646-726-8149 \\ \vspace{8pt}
+  NYU Stern\\
+  44 West 4th Street, 9-193F\\
+  New York, NY 10012\\[4pt]
+  Citizenships: USA, Austria
 \end{center}
-\vspace{10mm} % Significant space after header
+\vspace{10mm}
 
-
-%==== Education ====%
+%==== Education ==== %
 \header{Education}
 \textbf{PhD in Finance, NYU Stern}\hfill 09/2022 - present\\
 \vspace{4mm}
 
-\textbf{Non-degree Graduate Student in Mathematics, NYU Courant }\hfill 09/2021 - 06/2022\\
+\textbf{Non-degree Graduate Student in Mathematics, NYU Courant}\hfill 09/2021 - 06/2022\\
 \vspace{4mm}
 
 \textbf{MSc in Economics, London School of Economics}\hfill 08/2018 - 06/2020\\
-Graduated \textit{with distinction} (top 3\%)
+Graduated \textit{with distinction}
 \vspace{4mm}
 
 \textbf{BA in Econ., Philosophy \& Pol. Sci., University of Zurich}\hfill 08/2015 - 06/2018\\
-\vspace{8mm} % Roomy section spacing
+\vspace{8mm}
 
-%==== Working Papers ====%
+%==== Working Papers ==== %
 \header{Working Papers}
-``LLM agents as traders in experimental asset markets''
+``From Prompt to Portfolio: Generative AI and Retail Investment''\\
+\vspace{2mm}
+{\small
+Generative AI has become one of the most rapidly adopted technologies, and this adoption extends to financial advice. I study the staggered adoption of generative AI for financial advice by retail investors and its effects on their investment decisions and portfolio allocations. Using linked records of investors' prompts, AI answers, transactions, and portfolio holdings, I find high rates of advice implementation. This implementation shifts new investment toward low-cost, well-diversified equity funds, with corresponding changes in portfolio holdings.\par
+}
 \vspace{8mm}
 
-%==== Professional Experience ====%
+%==== Work in Progress ==== %
+\header{Work in Progress}
+``LLM Agents as Traders in Experimental Asset Markets''\\
+\vspace{4mm}
+
+``Lowering the Cost of Entry: Evidence from AI Adoption by Construction Firms''\\
+with Dean Parker
+\vspace{8mm}
+
+%==== Professional Experience ==== %
 \header{Professional Experience}
-\textbf{Senior Research Analyst}, Federal Reserve Bank of New York \hfill 07/2021 - 09/2022\\
+\textbf{Senior Research Analyst}, Federal Reserve Bank of New York\hfill 07/2021 - 09/2022\\
 \vspace{4mm}
 
-\textbf{Junior Research Scientist}, Department of Finance, NYU Stern \hfill 06/2020 - 06/2021\\
+\textbf{Junior Research Scientist}, Department of Finance, NYU Stern\hfill 06/2020 - 06/2021\\
 \vspace{4mm}
 
-\textbf{Research Assistant}, Department of Economics, London Business School \hfill 05/2019 - 03/2020\\
+\textbf{Research Assistant}, Department of Economics, London Business School\hfill 05/2019 - 03/2020\\
 \vspace{8mm}
 
-
-
-%==== Teaching Experience ====%
+%==== Teaching Experience ==== %
+\newpage
 \header{Teaching Experience}
 \textbf{NYU Stern}\\
 \vspace{2mm}
 \textit{Instructor}\\
-Foundations of Finance, Undergraduate (Summer 2025) \hfill Rating: 5/5\\
+Foundations of Finance, Undergraduate (Summer 2025)\hfill Average instructor rating: 5.00\\
 \vspace{4mm}
 
 \textit{Teaching Assistant}\\
-Foundations of Finance, Undergraduate (Spring 2025, Fall 2025) \hfill Instructor: Prof. Toomas Laarits\\
-Finance Concepts and Math, Graduate (Summer 2025) \hfill Instructor: Prof. Alexi Savov\\
-Foundations of Finance, Graduate (Summer 2025) \hfill Instructor: Prof. Alexi Savov\\
+{\small
+Foundations of Finance, Undergraduate (Spring 2025, Fall 2025)\hfill Instructor: Prof. Toomas Laarits\\
+Finance Concepts and Math, Graduate (Summer 2025)\hfill Instructor: Prof. Alexi Savov\\
+Foundations of Finance, Graduate (Summer 2025)\hfill Instructor: Prof. Alexi Savov\\
+}
 \vspace{8mm}
 
-%==== Presentations ====%
+%==== Presentations ==== %
 \header{Presentations}
 NYU Stern Finance Seminar (2024, 2025)\\
 Johns Hopkins Carey Finance Conference (2025)
 \vspace{8mm}
 
-%==== Awards ====%
+%==== Awards ==== %
 \header{Awards}
+David M. Graifman Merit Award, NYU Stern Finance (2026)\\
+Jules I. Bogen Fellowship, NYU Stern Finance (2026--2027)\\
 Martin J. Gruber Best Summer Paper Award, NYU Stern Finance (2024)
-\vspace{4mm}
+\vspace{8mm}
 
+%==== Programming Languages ==== %
+\header{Programming Languages}
+Python, Stata, MATLAB, LaTeX
 
 \end{document}
