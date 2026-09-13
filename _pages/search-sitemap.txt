@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: /sitemap.txt
+sitemap: false
+---
+{{ '/' | absolute_url }}
+{{ '/teaching/' | absolute_url }}
+{{ '/files/CV_Valerie_Baldinger.pdf' | absolute_url }}
+{{ '/files/teaching_eval_summer2025.pdf' | absolute_url }}
