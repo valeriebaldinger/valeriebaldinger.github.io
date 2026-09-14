@@ -1,4 +1,4 @@
-/* Homepage only: the existing AcademicPages layouts remain unchanged. */
+/* Homepage and paper landing page; existing AcademicPages layouts remain unchanged. */
 :root {
   color-scheme: light;
   --ink: #25282c;
@@ -46,6 +46,12 @@ h1, h2 { font-family: var(--serif); font-weight: 500; line-height: 1.15; }
 .paper { padding: 30px 34px; background: #fff; border: 1px solid var(--rule); border-radius: 3px; }
 .paper-title { font-family: var(--serif); font-size: 25px; font-weight: 500; line-height: 1.35; color: var(--accent); margin-bottom: 18px; max-width: 800px; }
 .paper-title span { display: block; }
+.paper-title a { text-decoration: none; }
+.paper-title a:hover { text-decoration: underline; }
+.paper-landing { padding-block: 64px 80px; }
+.paper-landing h1 { font-size: clamp(30px, 4vw, 42px); max-width: 850px; line-height: 1.25; }
+.paper-landing h1 span { display: block; }
+.paper-availability { max-width: 650px; margin-block: 28px 20px; }
 .paper details { font-size: 16px; }
 .paper summary { width: fit-content; cursor: pointer; color: var(--accent); font-size: 14px; font-weight: 500; }
 .paper summary::marker { font-size: 11px; }

@@ -36,9 +36,14 @@ assert.ok(profile.mainEntity.sameAs.includes('https://www.linkedin.com/in/valeri
 assert.equal((home.match(/property="og:image"/g) || []).length, 1);
 assert.equal((home.match(/name="twitter:card"/g) || []).length, 1);
 
-for (const file of ['index.html', 'teaching/index.html']) {
+const paperPage = 'papers/from-prompt-to-portfolio/index.html';
+for (const file of ['index.html', 'teaching/index.html', paperPage]) {
   const html = read(file);
-  assert.doesNotMatch(html, /<meta name="robots" content="[^"]*noindex/);
+  if (file === paperPage) {
+    assert.match(html, /name="robots" content="noindex, follow"/);
+  } else {
+    assert.doesNotMatch(html, /<meta name="robots" content="[^"]*noindex/);
+  }
   assert.equal((html.match(/name="description"/g) || []).length, 1);
   const pageURL = new URL(file.replace(/index\.html$/, ''), canonical);
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
@@ -58,6 +63,12 @@ const sitemap = read('sitemap.xml');
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
 assert.equal(new Set(urls).size, urls.length);
 assert.ok(urls.includes(canonical));
+const latestVersionURL = new URL('papers/from-prompt-to-portfolio/', canonical);
+assert.ok(!urls.includes(latestVersionURL.href), 'Do not index the paper placeholder.');
+assert.match(home, /id="prompt-to-portfolio"><a href="\/papers\/from-prompt-to-portfolio\/">/);
+assert.ok(read(paperPage).includes(`rel="canonical" href="${latestVersionURL.href}"`));
+assert.match(read(paperPage), /The paper PDF is not yet available\./);
+assert.doesNotMatch(read(paperPage), /http-equiv="refresh"/);
 assert.deepEqual(read('sitemap.txt').trim().split('\n'), urls);
 assert.doesNotMatch(sitemap, /paper-title|\/portfolio\/|\/markdown\/|\/talks\//);
 assert.ok(read('robots.txt').includes(`Sitemap: ${canonical}sitemap.xml`));

@@ -32,7 +32,7 @@ redirect_from:
     <h2 class="section-title" id="research-title">Research</h2>
     <h3 class="research-label">Working Papers</h3>
     <article class="paper" aria-labelledby="prompt-to-portfolio">
-      <h4 class="paper-title" id="prompt-to-portfolio">From Prompt to Portfolio: <span>Generative AI and Retail Investment</span></h4>
+      <h4 class="paper-title" id="prompt-to-portfolio"><a href="{{ '/papers/from-prompt-to-portfolio/' | relative_url }}">From Prompt to Portfolio: <span>Generative AI and Retail Investment</span></a></h4>
       <details open>
         <summary>Abstract</summary>
         <p class="abstract">Generative AI has become one of the most rapidly adopted technologies, and this adoption extends to financial advice. I study the staggered adoption of generative AI for financial advice by retail investors and its effects on their investment decisions and portfolio allocations. Using linked records of investors' prompts, AI answers, transactions, and portfolio holdings, I find high rates of advice implementation. This implementation shifts new investment toward low-cost, well-diversified equity funds, with corresponding changes in portfolio holdings.</p>
