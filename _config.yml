@@ -262,6 +262,12 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  # Keep the intentionally blank draft placeholder out of the sitemap.
+  # Remove this exclusion when an approved paper replaces the blank PDF.
+  - scope:
+      path: "files/From_Prompt_to_Portfolio.pdf"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""

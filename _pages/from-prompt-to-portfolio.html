@@ -7,7 +7,7 @@ robots: "noindex, follow"
 sitemap: false
 ---
 <!-- Keep this permalink stable: it is the latest-version link embedded in the paper.
-     Once an approved PDF is public, replace this placeholder with a redirect to it.
+     The current PDF is intentionally blank. Replace it only with an approved draft.
      Do not change the permalink when updating or renaming the PDF. -->
 <!doctype html>
 <html lang="{{ site.locale | default: 'en-US' }}">
@@ -15,31 +15,7 @@ sitemap: false
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include seo.html %}
-    <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}">
+    <meta http-equiv="refresh" content="0;url={{ '/files/From_Prompt_to_Portfolio.pdf' | relative_url }}">
   </head>
-  <body>
-    <a class="skip-link" href="#paper">Skip to main content</a>
-    <header class="site-header">
-      <nav class="site-nav shell" aria-label="Main navigation">
-        <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.name }}</a>
-        <div class="nav-links">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/#research' | relative_url }}">Research</a>
-          <a href="{{ '/files/CV_Valerie_Baldinger.pdf' | relative_url }}">CV</a>
-        </div>
-      </nav>
-    </header>
-    <main class="paper-landing shell" id="paper">
-      <p class="research-label">Working Paper</p>
-      <h1>From Prompt to Portfolio: <span>Generative AI and Retail Investment</span></h1>
-      <p>{{ site.author.name }}</p>
-      <p class="paper-availability">The paper PDF is not yet available. The latest version will be available at this address when it is posted.</p>
-      <a href="{{ '/#prompt-to-portfolio' | relative_url }}">Read the abstract</a>
-    </main>
-    <footer class="site-footer shell">
-      <span>&copy; {{ 'now' | date: '%Y' }} {{ site.name }}</span>
-      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-    </footer>
-  </body>
+  <body></body>
 </html>
