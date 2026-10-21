@@ -32,7 +32,7 @@ redirect_from:
     <h2 class="section-title" id="research-title">Research</h2>
     <h3 class="research-label">Working Papers</h3>
     <article class="paper" aria-labelledby="prompt-to-portfolio">
-      <h4 class="paper-title" id="prompt-to-portfolio">From Prompt to Portfolio: <span>Generative AI and Retail Investment</span></h4>
+      <h4 class="paper-title" id="prompt-to-portfolio">Generative AI and Retail Investment</h4>
       <details open>
         <summary>Abstract</summary>
         <p class="abstract">Generative AI is a general-purpose technology with rapidly growing adoption among retail investors. How does the adoption of this technology change the investment behavior of retail investors? I study this question using transaction-level data linking investors' prompts and AI answers to their trades and portfolio holdings. Using a staggered difference-in-differences design, I find that generative AI adoption shifts new investment away from individual stocks and toward low-cost index funds. The share of new investments allocated to index funds increases by 7.6 percentage points, with a resulting 11% reduction in their idiosyncratic volatility.</p>
@@ -44,7 +44,7 @@ redirect_from:
         <h4>LLM Agents as Traders in Experimental Asset Markets</h4>
       </article>
       <article class="wip-item">
-        <h4>Lowering the Cost of Entry: Evidence from AI Adoption by Construction Firms</h4>
+        <h4>Lowering the Cost of Entry: Evidence from Firm AI Adoption in Procurement Auctions</h4>
         <p class="coauthors">with Dean Parker</p>
       </article>
     </div>
