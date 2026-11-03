@@ -44,14 +44,15 @@ h1, h2 { font-family: var(--serif); font-weight: 500; line-height: 1.15; }
 .section-title::after { content: ""; display: block; width: 40px; height: 2px; background: var(--accent); margin-top: 15px; }
 .research-label { font-size: 13px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); margin-bottom: 15px; }
 .paper { padding: 30px 34px; background: #fff; border: 1px solid var(--rule); border-radius: 3px; }
+.paper + .paper { margin-top: 20px; }
 .paper-title { font-family: var(--serif); font-size: 25px; font-weight: 500; line-height: 1.35; color: var(--accent); margin-bottom: 18px; max-width: 800px; }
 .paper-title span { display: block; }
 .paper-title a { text-decoration: none; }
 .paper-title a:hover { text-decoration: underline; }
-.paper details { font-size: 16px; }
-.paper summary { width: fit-content; cursor: pointer; color: var(--accent); font-size: 14px; font-weight: 500; }
-.paper summary::marker { font-size: 11px; }
-.paper .abstract { line-height: 1.8; margin: 17px 0 0; max-width: 880px; }
+.research-section details { margin-top: 14px; font-size: 16px; }
+.research-section summary { width: fit-content; cursor: pointer; color: var(--accent); font-size: 14px; font-weight: 500; }
+.research-section summary::marker { font-size: 11px; }
+.research-section .abstract { line-height: 1.8; margin: 17px 0 0; max-width: 880px; }
 .wip { margin-top: 35px; }
 .wip h3 { font-family: var(--serif); font-size: 25px; font-weight: 500; margin-bottom: 20px; }
 .wip-item + .wip-item { border-top: 1px solid var(--rule); padding-top: 19px; margin-top: 19px; }
@@ -98,7 +99,7 @@ h1, h2 { font-family: var(--serif); font-weight: 500; line-height: 1.15; }
   .paper { padding: 22px; }
   .paper-title { font-size: 23px; }
   .paper-title span { display: inline; }
-  .paper .abstract { font-size: 15px; line-height: 1.75; }
+  .research-section .abstract { font-size: 15px; line-height: 1.75; }
   .wip-item h4 { font-size: 17px; }
   .teaching-section { padding-top: 40px; }
   .course { grid-template-columns: minmax(0, 1fr); gap: 4px; }
