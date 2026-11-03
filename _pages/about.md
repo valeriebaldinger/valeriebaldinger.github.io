@@ -32,7 +32,7 @@ redirect_from:
     <h2 class="section-title" id="research-title">Research</h2>
     <h3 class="research-label">Working Papers</h3>
     <article class="paper" aria-labelledby="prompt-to-portfolio">
-      <h4 class="paper-title" id="prompt-to-portfolio"><a href="https://valeriebaldinger.github.io/papers/from-prompt-to-portfolio/">Generative AI and Retail Investment</a></h4>
+      <h4 class="paper-title" id="prompt-to-portfolio"><a href="{{ '/papers/generative-ai-and-retail-investment/' | relative_url }}">Generative AI and Retail Investment</a></h4>
       <p class="paper-notes"><em>Job Market Paper</em></p>
       <details>
         <summary>Abstract</summary>
