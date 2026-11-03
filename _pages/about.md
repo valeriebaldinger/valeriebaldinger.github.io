@@ -60,6 +60,14 @@ redirect_from:
           <p class="abstract">Generative AI, as a labor-augmenting technology, has the potential to raise productivity across a broad range of tasks, with implications for small firms' competitiveness. In this paper, we study whether the proliferation of generative AI has changed competition for government contracts. Bidding for these contracts involves labor-intensive document analysis and preparation, tasks for which generative AI is well suited and widely used. We assemble a dataset of state-level procurement contracts, bids, and award outcomes across industries and government departments. We find an upward level shift in bidding participation following the emergence of generative AI, particularly for smaller contracts. This is consistent with AI lowering analysis and bid-preparation costs, thus lowering the barrier to entry into procurement auctions. To examine this mechanism, we exploit cross-state variation in exposure to generative AI stemming from differences in the amount of documentation required to submit a bid. We also provide direct evidence on AI use in procurement auctions by using an AI detection tool on firms' bid documents. We examine which firms adopt AI, how AI use varies across contract types, and how it is associated with the likelihood of winning a contract.</p>
         </details>
       </article>
+      <article class="paper" aria-labelledby="attention-reasoning-investment">
+        <h4 class="paper-title" id="attention-reasoning-investment">Attention, Reasoning, and Investment Decisions</h4>
+        <p class="coauthors">with Martina Cuneo</p>
+        <details>
+          <summary>Abstract</summary>
+          <p class="abstract">Using novel data linking investors’ prompts to an AI assistant with their portfolios, transactions, and returns, we study how investors’ attention and reasoning vary with investment performance. Investors’ responses to gains and losses are central to behavioral theories of financial markets, but the reasoning underlying these responses is not well understood. We find that investors focus more on their existing portfolios after poor returns and seek new investment opportunities after good returns. We characterize the reasons investors give for their investment decisions and relate them to subsequent portfolio choices. We examine whether changes in investors’ reasoning help explain time variation in risk-taking and demand for risky assets.</p>
+        </details>
+      </article>
     </div>
   </div>
 </section>
