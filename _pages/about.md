@@ -66,7 +66,7 @@ redirect_from:
         <p class="coauthors">with Martina Cuneo</p>
         <details>
           <summary>Abstract</summary>
-          <p class="abstract">Using novel data linking investors’ prompts to an AI assistant with their portfolios, transactions, and returns, we study how investors’ attention and reasoning vary with investment performance. Investors’ responses to gains and losses are central to behavioral theories of financial markets, but the reasoning underlying these responses is not well understood. We find that investors focus more on their existing portfolios after poor returns and seek new investment opportunities after good returns. We characterize the reasons investors give for their investment decisions and relate them to subsequent portfolio choices. We examine whether changes in investors’ reasoning help explain time variation in risk-taking and demand for risky assets.</p>
+          <p class="abstract">Using novel data linking investors’ prompts to an AI assistant with their portfolios, transactions, and returns, we study how investors’ attention and reasoning vary with investment performance. Investors’ responses to gains and losses are central to behavioral theories of financial markets, but the reasoning underlying these responses is not well understood. We find that investors focus more on their existing portfolios after poor returns and seek new investment opportunities after good returns. We extract investors’ reasoning from their prompts and relate it to subsequent portfolio choices. We examine whether changes in investors’ reasoning help explain time variation in risk-taking and demand for risky assets.</p>
         </details>
       </article>
     </div>
