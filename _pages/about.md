@@ -42,6 +42,10 @@ redirect_from:
       <h3 id="wip-title">Work in Progress</h3>
       <article class="wip-item">
         <h4>LLM Agents as Traders in Experimental Asset Markets</h4>
+        <div class="paper-notes">
+          <p><em>Martin J. Gruber Best 2nd Year Paper Award, NYU Stern Finance (2024)</em></p>
+          <p>Presentations: Johns Hopkins Carey Finance Conference (2025)</p>
+        </div>
       </article>
       <article class="wip-item">
         <h4>Lowering the Cost of Entry: Evidence from Firm AI Adoption in Procurement Auctions</h4>

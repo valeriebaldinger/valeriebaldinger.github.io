@@ -56,6 +56,9 @@ h1, h2 { font-family: var(--serif); font-weight: 500; line-height: 1.15; }
 .wip h3 { font-family: var(--serif); font-size: 25px; font-weight: 500; margin-bottom: 20px; }
 .wip-item + .wip-item { border-top: 1px solid var(--rule); padding-top: 19px; margin-top: 19px; }
 .wip-item h4 { font-size: 18px; font-weight: 500; line-height: 1.5; margin-bottom: 3px; }
+.paper-notes { margin-top: 8px; color: var(--muted); font-size: 15px; line-height: 1.55; }
+.paper-notes p { margin: 0; }
+.paper-notes p + p { margin-top: 4px; }
 .coauthors { color: var(--muted); font-size: 15px; margin-bottom: 0; }
 .teaching-section { padding-block: 55px 30px; }
 .teaching-group + .teaching-group { margin-top: 30px; }
