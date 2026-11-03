@@ -3,7 +3,7 @@ permalink: /
 layout: academic-home
 seo_title: "Valerie Baldinger — Finance PhD Student, NYU Stern"
 excerpt: "Valerie Baldinger is a Finance PhD student at NYU Stern. Explore her research on generative AI and retail investment, teaching, and CV."
-last_modified_at: 2026-11-02
+last_modified_at: 2026-11-03
 robots: "index, follow, max-image-preview:large"
 author_profile: false
 redirect_from: 
@@ -32,11 +32,11 @@ redirect_from:
     <h2 class="section-title" id="research-title">Research</h2>
     <h3 class="research-label">Working Papers</h3>
     <article class="paper" aria-labelledby="prompt-to-portfolio">
-      <h4 class="paper-title" id="prompt-to-portfolio">Generative AI and Retail Investment</h4>
+      <h4 class="paper-title" id="prompt-to-portfolio"><a href="{{ '/papers/generative-ai-and-retail-investment/' | relative_url }}">Generative AI and Retail Investment</a></h4>
       <p class="paper-notes"><em>Job Market Paper</em></p>
       <details>
         <summary>Abstract</summary>
-        <p class="abstract">Generative AI is a general purpose technology with rapidly growing adoption among retail investors. How does the adoption of this technology change their investment behavior? I study this question using transaction-level data linking investors' prompts and AI answers to their trades and portfolio holdings. Using a staggered difference-in-differences design, I find that generative AI adoption increases investment in index funds and reduces investment in individual stocks, thereby improving diversification and portfolio efficiency. These improvements are larger for investors who were less diversified before adoption.</p>
+        <p class="abstract">Generative AI is a general purpose technology with rapidly growing adoption among retail investors. How does the adoption of this technology change their investment behavior? I study this question using transaction-level data linking investors' prompts and AI answers to their trades and portfolio holdings. Using a staggered difference-in-differences design, I find that generative AI adoption increases investment in index funds and reduces investment in individual stocks, thereby improving diversification and portfolio efficiency. These improvements are larger for investors who are less diversified before they start using the AI assistant.</p>
       </details>
     </article>
     <article class="paper" aria-labelledby="llm-agents">

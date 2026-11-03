@@ -262,8 +262,11 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # Keep the intentionally blank draft placeholder out of the sitemap.
-  # Remove this exclusion when an approved paper replaces the blank PDF.
+  # Keep the paper PDF and its legacy URL out of the sitemap.
+  - scope:
+      path: "files/generative_ai_and_retail_investment.pdf"
+    values:
+      sitemap: false
   - scope:
       path: "files/From_Prompt_to_Portfolio.pdf"
     values:
