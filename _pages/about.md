@@ -35,7 +35,10 @@ redirect_from:
     <h3 class="research-label">Working Papers</h3>
     <article class="paper" aria-labelledby="prompt-to-portfolio">
       <h4 class="paper-title" id="prompt-to-portfolio"><a href="{{ '/papers/generative-ai-and-retail-investment/' | relative_url }}">Generative AI and Retail Investment</a></h4>
-      <p class="paper-notes"><em>Job Market Paper</em></p>
+      <div class="paper-notes">
+        <p><em>Job Market Paper</em></p>
+        <p>Media coverage: <a href="https://www.bloomberg.com/opinion/newsletters/2026-11-12/nvidia-s-board-had-to-do-something?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDUyMTgyMSwiZXhwIjoxNzk1MTI2NjIxLCJhcnRpY2xlSWQiOiJUT0VKTkZLSUpIOE8wMCIsImJjb25uZWN0SWQiOiJCOTU4NjJDREE2OTM0OTMwQUFGRUNEMTQzMjAzOENGQyJ9.XtDnNFiE2cEhUvmi8X1HR_zvOXxaCdzlSSG8IkeIL4E">Matt Levine’s newsletter (Bloomberg)</a></p>
+      </div>
       <details>
         <summary>Abstract</summary>
         <p class="abstract">Generative AI is a general purpose technology with rapidly growing adoption among retail investors. How does the adoption of this technology change household investment decisions? I study the adoption of a generative AI-based conversational assistant by retail investors, using data that link investors’ prompts and AI answers to transaction-level trading records. Using a staggered difference-in-differences design, I find that generative AI adoption increases investment in index funds relative to individual stocks by 7.6 percentage points. As a result, AI adoption reduces investors’ return loss—the expected return forgone due to under-diversification at a given level of risk—by 43 basis points on average. With respect to the potential mechanisms, I find evidence that AI’s ability to tailor its answers to investors’ circumstances contributes to its effect on their portfolio choices.</p>
