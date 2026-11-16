@@ -44,7 +44,7 @@ redirect_from:
       </details>
     </article>
     <article class="paper" aria-labelledby="llm-agents">
-      <h4 class="paper-title" id="llm-agents">LLM Agents as Traders in Experimental Asset Markets</h4>
+      <h4 class="paper-title" id="llm-agents"><a href="{{ '/files/Large_Language_Models_as_Traders_in_Experimental_Asset_Markets.pdf' | relative_url }}">Large Language Models as Traders in Experimental Asset Markets</a></h4>
       <div class="paper-notes">
         <p><em>Martin J. Gruber Best 2nd Year Paper Award, NYU Stern Finance (2024)</em></p>
         <p>Presentations: Johns Hopkins Carey Finance Conference (2025)</p>
