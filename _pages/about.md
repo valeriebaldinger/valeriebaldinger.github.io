@@ -34,7 +34,7 @@ redirect_from:
     <h2 class="section-title" id="research-title">Research</h2>
     <h3 class="research-label">Working Papers</h3>
     <article class="paper" aria-labelledby="prompt-to-portfolio">
-      <h4 class="paper-title" id="prompt-to-portfolio"><a href="{{ '/papers/generative-ai-and-retail-investment/' | relative_url }}">Generative AI and Retail Investment</a></h4>
+      <h4 class="paper-title" id="prompt-to-portfolio"><a href="{{ '/files/website/Generative_AI_and_Retail_Investment.pdf' | relative_url }}">Generative AI and Retail Investment</a></h4>
       <div class="paper-notes">
         <p><em>Job Market Paper</em></p>
         <p>Media coverage: <a href="https://www.bloomberg.com/opinion/newsletters/2026-11-12/nvidia-s-board-had-to-do-something?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDUyMTgyMSwiZXhwIjoxNzk1MTI2NjIxLCJhcnRpY2xlSWQiOiJUT0VKTkZLSUpIOE8wMCIsImJjb25uZWN0SWQiOiJCOTU4NjJDREE2OTM0OTMwQUFGRUNEMTQzMjAzOENGQyJ9.XtDnNFiE2cEhUvmi8X1HR_zvOXxaCdzlSSG8IkeIL4E">Matt Levine’s newsletter (Bloomberg)</a></p>
